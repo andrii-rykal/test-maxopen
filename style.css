@@ -3,7 +3,6 @@
 }
 
 html {
-  scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -16,7 +15,6 @@ input,
 button {
   margin: 0;
   padding: 0;
-  overflow: auto;
 }
 
 .header-links {
@@ -46,7 +44,7 @@ button {
   display: flex;
   gap: 6px;
   align-items: center;
-  color: #333;
+  color: inherit;
   font-size: 10px;
   font-weight: 500;
   line-height: 12px;
@@ -304,8 +302,6 @@ button {
   }
   .header-links {
     padding: 17px 120px;
-  }
-  .header-links {
     justify-content: space-between;
   }
   .header-icon-menu {
@@ -335,5 +331,8 @@ button {
   .header-logo {
     width: 217px;
     height: 60px;
+  }
+  .menu {
+    display: none;
   }
 }
