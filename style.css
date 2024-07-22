@@ -331,4 +331,8 @@ button {
     font-weight: 500;
     line-height: 20px;
   }
+  .header-logo {
+    width: 217px;
+    height: 60px;
+  }
 }
