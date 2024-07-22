@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-links">
+        <div class="header-links-left">
+          <a
+            class="header-link"
+            href="https://maps.app.goo.gl/ibVZRHWaJK3YT6sb8"
+            target="_blank"
+          >
+            <img class="header-link-icon" src="icon_map.svg" alt="" />
+            <p class="header-link-text">
+              м. Київ, вул. <span class="nowrap">Антоновича 34</span>
+            </p>
+          </a>
+          <a class="header-link" href="mailto:info@usap.ua">
+            <img class="header-link-icon" src="icon_mail.svg" alt="" />
+            <p class="header-link-text">info@usap.ua</p>
+          </a>
+          <a class="header-link" href="tel:+380674804684">
+            <img class="header-link-icon" src="icon_tel.svg" alt="" />
+            <p class="header-link-text">(067) 480-46-84</p>
+          </a>
+        </div>
+        <div class="header-links-right">
+          <a class="header-link" href="#">Контакти</a>
+          <a class="header-link" href="#"><span class="nowrap">Про компанію</span></a>
+          <a class="header-link" href="#">Блог</a>
+        </div>
+      </div>
+      <div class="header-menu">
+        <a href="">
+          <img class="header-logo" src="logo.svg" alt="" />
+        </a>
+
+        <nav class="header-nav">
+          <div class="header-research">
+            <button class="header-button header-research-button">
+              Дослідження
+              <img
+                class="header-research-down"
+                src="arrow_down_black.svg"
+                alt=""
+              />
+            </button>
+            <div class="header-research-links hidden">
+              <a class="header-menu-link" href="#">ГМО</a>
+              <a class="header-menu-link" href="#">Олійні</a>
+              <a class="header-menu-link" href="#">Зернові</a>
+              <a class="header-menu-link" href="#">Паливо</a>
+              <a class="header-menu-last" href="#">Всі дослідження</a>
+            </div>
+          </div>
+
+          <div class="header-consulting">
+            <button class="header-button header-consulting-button">
+              Консалтинг
+              <img
+                class="header-consulting-down"
+                src="arrow_down_black.svg"
+                alt=""
+              />
+            </button>
+            <div class="header-consulting-links hidden">
+              <div class="header-consulting-block">
+                <p class="header-cosulting-title">Розробка систем</p>
+                <a class="header-menu-link" href="#">ISO 22000</a>
+                <a class="header-menu-link" href="#">ISO 27001</a>
+                <a class="header-menu-link" href="#">ISO 15189</a>
+                <a class="header-menu-link" href="#">ISO 15189</a>
+                <a class="header-menu-last" href="#">Всі системи</a>
+              </div>
+              <div class="header-consulting-block">
+                <p class="header-cosulting-title">Сертифікація продукції</p>
+                <a class="header-menu-link" href="#">Миючі засоби</a>
+                <a class="header-menu-link" href="#">Харчові продукти</a>
+                <a class="header-menu-link" href="#">Іграшки</a>
+                <a class="header-menu-link" href="#"
+                  >Сертифікат відповідності</a
+                >
+                <a class="header-menu-last" href="#">Всі системи</a>
+              </div>
+            </div>
+          </div>
+
+          <a class="header-link-once" href="#">Сертифікація</a>
+          <a class="header-link-once" href="#">Навчання</a>
+          <a class="header-link-once" href="#">Наші клієнти</a>
+        </nav>
+
+        <div class="header-search">
+          <div class="header-search-box">
+            <input
+              class="header-input"
+              type="text"
+              name="search"
+              placeholder="Пошук"
+            />
+            <img src="search.svg" alt="" />
+          </div>
+          <a class="header-icon-menu" href="#menu">
+            <img src="icon_menu.svg" alt="" />
+          </a>
+          <a class="header-icon-lang" href="#">
+            <img src="icon_lang.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="menu" id="menu">
+        <div class="menu-header">
+          <a class="menu-icon-lang" href="#">
+            <img src="icon_lang.svg" alt="" />
+          </a>
+          <a class="header-icon-menu" href="#">
+            <img src="icon_close.svg" alt="" />
+          </a>
+        </div>
+        <nav class="menu-nav">
+          <div class="menu-research">
+            <button class="menu-button menu-research-button">
+              Дослідження
+              <img class="menu-research-down" src="arrow_down.svg" alt="" />
+              <img class="menu-research-up hidden" src="arrow_up.svg" alt="" />
+            </button>
+            <div class="menu-research-links hidden">
+              <a class="menu-link pad-top20" href="#">ГМО</a>
+              <a class="menu-link" href="#">Олійні</a>
+              <a class="menu-link" href="#">Зернові</a>
+              <a class="menu-link" href="#">Паливо</a>
+              <a class="menu-link last-link" href="#">Всі дослідження</a>
+            </div>
+          </div>
+
+          <div class="menu-consulting">
+            <button class="menu-button menu-consulting-button">
+              Консалтинг
+              <img class="menu-consulting-down" src="arrow_down.svg" alt="" />
+              <img
+                class="menu-consulting-up hidden"
+                src="arrow_up.svg"
+                alt=""
+              />
+            </button>
+            <div class="menu-consulting-links hidden">
+              <a class="menu-link first-link pad-top20" href="#"
+                >Розробка систем</a
+              >
+              <a class="menu-link" href="#">ISO 22000</a>
+              <a class="menu-link" href="#">ISO 27001</a>
+              <a class="menu-link" href="#">ISO 15189</a>
+              <a class="menu-link" href="#">ISO 15189</a>
+              <a class="menu-link last-link mar-bot40" href="#">Всі системи</a>
+              <a class="menu-link first-link" href="#"
+                >Сертифікація продукції</a
+              >
+              <a class="menu-link" href="#">Миючі засоби</a>
+              <a class="menu-link" href="#">Харчові продукти</a>
+              <a class="menu-link" href="#">Іграшки</a>
+              <a class="menu-link" href="#">Сертифікат відповідності</a>
+              <a class="menu-link last-link" href="#">Всі системи</a>
+            </div>
+          </div>
+
+          <a class="menu-link-once" href="#">Сертифікація</a>
+          <a class="menu-link-once" href="#">Про компанію</a>
+          <a class="menu-link-once" href="#">Блог</a>
+          <a class="menu-link-once" href="#">Контакти</a>
+          <a class="menu-link-once" href="#">Навчання</a>
+          <a class="menu-link-once" href="#">Наші клієнти</a>
+        </nav>
+      </div>
+    </header>
+  </body>
+</html>
